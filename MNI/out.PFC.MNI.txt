@@ -1,0 +1,15 @@
+[7m** FATAL ERROR:[0m Can't read file '/home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/t1_PFC_uni_strip_al_mat.aff12.1D'
+** Program compile date = Jul  6 2018
+++ 3dAllineate: AFNI version=AFNI_18.2.04 (Jul  6 2018) [64-bit]
+++ Authored by: Zhark the Registrator
+[7m** FATAL ERROR:[0m Can't read -1Dmatrix_apply '/home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_to_FS_xform.1D' :-(
+** Program compile date = Jul  6 2018
+mri_convert --apply_transform /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/talairach.xfm /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_FS.nii.gz -oc 0 0 0 /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_mni.nii.gz 
+niiRead(): error opening file /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_FS.nii.gz
+$Id: mri_convert.c,v 1.179.2.7 2012/09/05 21:55:16 mreuter Exp $
+reading from /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_FS.nii.gz...
+++ 3drefit: AFNI version=AFNI_18.2.04 (Jul  6 2018) [64-bit]
+++ Authored by: RW Cox
+** ERROR (nifti_image_read): failed to find header file for '/home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_mni.nii.gz'
+[7m** ERROR:[0m Can't open dataset /home/shaw-raid1/data/MRS/anatomy/P6011061_20190324/MNI/PFC_mask_mni.nii.gz
+++ 3drefit processed 0 datasets
